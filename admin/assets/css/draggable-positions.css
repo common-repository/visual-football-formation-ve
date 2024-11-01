@@ -1,0 +1,96 @@
+/* UTILITY ------------------------------------------------------------------ */
+
+.daextvffve-clearfix:after {
+     visibility: hidden !important;
+     display: block !important;
+     font-size: 0 !important;
+     content: " " !important;
+     clear: both !important;
+     height: 0 !important;
+     }
+.daextvffve-clearfix { display: inline-block !important; }
+* html .daextvffve-clearfix { height: 1% !important; }
+.daextvffve-clearfix { display: block !important; }
+
+/*prevent div highlight */
+#daextvffve-draggable-field{
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    -khtml-user-select: none !important;
+    -o-user-select: none !important;
+    user-select: none !important;
+    -webkit-touch-callout: none !important;
+}
+
+#daextvffve-draggable-field{
+    position: relative !important;
+    width: 400px !important;
+    height: 440px !important;
+    background: url("../../assets/img/back-field.png") 0 0 no-repeat !important;
+    float: left !important;
+}
+
+#daextvffve-containment-wrapper{
+    position: absolute !important;
+    top: 10px !important;
+    left: 10px !important;
+    width: 380px !important;
+    height: 420px !important;
+}
+
+.daextvffve-field-player{
+    background: #237d0a;
+    color: #fff !important;
+    cursor: pointer !important;
+    font-size: 22px !important;
+    font-weight: normal !important;
+    height: 60px !important;
+    line-height: 60px !important;
+    position: absolute !important;
+    text-align: center !important;
+    width: 60px !important;
+    border-radius: 30px !important;
+}
+
+#daextvffve-guide-left, #daextvffve-guide-right{
+    width: 1px !important;
+    height: 440px !important;
+    background: #ff4a4a !important;
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 999999 !important;
+}
+
+#daextvffve-guide-top, #daextvffve-guide-bottom{
+    width: 400px !important;
+    height: 1px !important;
+    background: #ff4a4a !important;
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 999999 !important;
+}
+
+#daextvffve-container{
+    width: 528px !important;
+    height: 440px !important;
+}
+
+#daextvffve-positions{
+    color: #777777 !important;
+    float: right !important;
+    font-family: Monaco, monospace !important;
+    font-size: 11px !important;
+    line-height: 14px !important;
+    padding: 8px 0 8px 16px !important;
+    text-align: left !important;
+    width: 112px !important;
+}
+
+.daextvffve-single-position{
+    font-family: Consolas, Monaco, monospace !important;
+}
